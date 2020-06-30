@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>unhsfl_logger</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LoggerAbstract.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoggerDTO\LoggerDTO.csproj" />
+  </ItemGroup>
+</Project>
